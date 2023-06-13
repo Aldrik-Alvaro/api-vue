@@ -2,7 +2,6 @@
   "name": "front-end-acc",
   "version": "0.0.0",
   "scripts": {
-    "start": "vite preview",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
