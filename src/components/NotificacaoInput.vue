@@ -116,6 +116,8 @@ export default {
   text-align: center;
   size: 30px;
   margin-top: 10px;
+  background-color: white !important;
+  
 }
 .notification-list {
   max-height: 350px;

@@ -8,7 +8,7 @@
         <v-text-field
           class="oi"
           v-model="formula"
-          label="Type rule"
+          label="Rule"
         ></v-text-field>
       </div>
       <div>
@@ -48,7 +48,6 @@
         <v-col cols="auto">
           <v-btn
             class="enviar"
-            v-show="!isMobile"
             @click="enviarFormulario"
             icon="mdi-send"
           ></v-btn>
@@ -384,8 +383,7 @@ thead {
   }
   .campo1 {
     margin-left: auto;
-
-    padding-left: 15%;
+    padding-left: 5%;
   }
   .campo2 {
     margin-left: auto;
